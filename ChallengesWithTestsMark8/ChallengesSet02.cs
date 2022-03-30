@@ -7,22 +7,22 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            return (Char.IsLetter(c));
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+            return (vals.Length % 2 == 0);
         }
 
         public bool IsNumberEven(int number)
         {
-            throw new NotImplementedException();
+            return (number % 2 == 0);
         }
 
         public bool IsNumberOdd(int num)
         {
-            throw new NotImplementedException();
+            return (num % 2 != 0);
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
